@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow">
+<title>うらのじん後援会 Meta広告 配信状況レポート（2026-06-09〜10）</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif;background:#f5f7fa;color:#1a202c;line-height:1.7;padding:20px}
+  .container{max-width:980px;margin:0 auto}
+  header{background:linear-gradient(135deg,#1e3a8a 0%,#3b82f6 100%);color:#fff;padding:40px 30px;border-radius:16px 16px 0 0;box-shadow:0 4px 20px rgba(0,0,0,.08)}
+  header h1{font-size:28px;margin-bottom:8px;letter-spacing:.5px}
+  header .meta{font-size:14px;opacity:.9}
+  header .badge{display:inline-block;background:rgba(255,255,255,.2);padding:4px 12px;border-radius:999px;font-size:12px;margin-right:8px;margin-top:8px}
+  main{background:#fff;padding:40px 30px;border-radius:0 0 16px 16px;box-shadow:0 4px 20px rgba(0,0,0,.08)}
+  section{margin-bottom:48px}
+  h2{font-size:22px;color:#1e3a8a;border-bottom:3px solid #3b82f6;padding-bottom:8px;margin-bottom:20px}
+  h3{font-size:17px;color:#1e40af;margin:20px 0 12px;padding-left:12px;border-left:4px solid #3b82f6}
+  h4{font-size:15px;color:#374151;margin:16px 0 8px}
+  p{margin-bottom:12px;color:#374151}
+  .summary-box{background:linear-gradient(135deg,#dbeafe 0%,#e0e7ff 100%);padding:24px;border-radius:12px;margin:20px 0;border-left:6px solid #3b82f6}
+  .summary-box .verdict{font-size:18px;font-weight:bold;color:#1e3a8a;margin-bottom:8px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin:20px 0}
+  .card{background:#fff;border:2px solid #e5e7eb;border-radius:12px;padding:20px;transition:.2s}
+  .card.green{border-color:#10b981;background:#f0fdf4}
+  .card.red{border-color:#ef4444;background:#fef2f2}
+  .card.yellow{border-color:#f59e0b;background:#fffbeb}
+  .card .label{font-size:13px;color:#6b7280;font-weight:500;margin-bottom:6px}
+  .card .value{font-size:30px;font-weight:bold;color:#111827;line-height:1.1;margin-bottom:6px}
+  .card .sub{font-size:13px;color:#6b7280}
+  .card.green .value{color:#047857}
+  .card.red .value{color:#b91c1c}
+  .card.yellow .value{color:#b45309}
+  table{width:100%;border-collapse:collapse;margin:16px 0;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+  th{background:#1e3a8a;color:#fff;padding:12px;text-align:left;font-size:14px;font-weight:600}
+  td{padding:12px;border-bottom:1px solid #e5e7eb;font-size:14px}
+  tr:last-child td{border-bottom:none}
+  tr:hover{background:#f9fafb}
+  .ok{color:#047857;font-weight:600}
+  .warn{color:#b45309;font-weight:600}
+  .bad{color:#b91c1c;font-weight:600}
+  .priority-tag{display:inline-block;padding:3px 10px;border-radius:6px;font-size:12px;font-weight:600;margin-right:8px}
+  .p0{background:#fee2e2;color:#991b1b}
+  .p1{background:#fef3c7;color:#92400e}
+  .p2{background:#d1fae5;color:#065f46}
+  .proposal{background:#f9fafb;border:2px solid #e5e7eb;border-radius:12px;padding:20px;margin:16px 0;position:relative}
+  .proposal .label-line{margin-bottom:10px}
+  .proposal h4{margin:6px 0 12px;color:#1f2937;font-size:17px}
+  .proposal .before-after{display:grid;grid-template-columns:1fr auto 1fr;gap:12px;align-items:center;margin:12px 0;padding:14px;background:#fff;border-radius:8px}
+  .proposal .before{color:#991b1b;font-size:14px;text-align:center}
+  .proposal .after{color:#065f46;font-size:14px;text-align:center;font-weight:600}
+  .proposal .arrow{font-size:24px;color:#3b82f6}
+  .proposal .reason{font-size:13px;color:#6b7280;margin-top:8px;padding-top:8px;border-top:1px dashed #d1d5db}
+  .approval-box{background:linear-gradient(135deg,#fef3c7 0%,#fde68a 100%);padding:28px;border-radius:12px;margin:24px 0;border:3px solid #f59e0b}
+  .approval-box h3{border:none;padding:0;color:#92400e;font-size:20px;margin-bottom:16px}
+  .approval-box ul{list-style:none;padding:0}
+  .approval-box li{padding:10px 0;border-bottom:1px dashed #f59e0b;color:#1f2937}
+  .approval-box li:last-child{border-bottom:none}
+  .approval-box li::before{content:"☐ ";font-weight:bold;color:#b45309;margin-right:6px}
+  .approval-box .footer{margin-top:16px;padding-top:16px;border-top:2px solid #f59e0b;font-size:14px;color:#92400e;font-weight:600}
+  .scenario-table{margin:16px 0}
+  .scenario-table td{font-family:"SF Mono",Menlo,monospace}
+  .highlight-row{background:#fef3c7 !important}
+  footer{text-align:center;color:#9ca3af;font-size:12px;padding:20px;margin-top:20px}
+  .info-note{background:#eff6ff;border-left:4px solid #3b82f6;padding:12px 16px;margin:12px 0;font-size:13px;color:#1e40af;border-radius:0 6px 6px 0}
+  @media(max-width:640px){header h1{font-size:22px}h2{font-size:18px}.card .value{font-size:24px}}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+  <h1>うらのじん後援会 Meta広告 配信状況レポート</h1>
+  <div class="meta">配信期間: 2026-06-09 〜 2026-06-10（約2日間）／ 集計: 2026-06-10</div>
+  <div>
+    <span class="badge">キャンペーン: 田川市_20-65_政治関心</span>
+    <span class="badge">広告: うらのじん_HP誘導_投稿A_2026-06</span>
+    <span class="badge">ステータス: アクティブ</span>
+  </div>
+</header>
+
+<main>
+
+<section>
+  <h2>📊 エグゼクティブサマリー</h2>
+  <div class="summary-box">
+    <div class="verdict">「うまくいってない」は誤解。クリエイティブは超優秀、ただし予算が消化できていない。</div>
+    <p style="margin-top:10px;color:#1e3a8a">
+      <strong>CTR 4.38%・CPC ¥54</strong> は業界平均の数倍〜数分の一で、極めて優秀な数値です。
+      クリックされた人の <strong>94%が HP に到達</strong> しており、広告クリエイティブとリンク設計に問題はありません。<br>
+      唯一かつ最大の問題は <strong>予算 ¥15,000/日 のうち約 9% しか消化できていない</strong> こと。
+      ターゲット母数の小ささと、政治広告特有の配信制限が原因と推測されます。
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2>📈 主要KPI（実数値）</h2>
+  <div class="grid">
+    <div class="card green">
+      <div class="label">CTR（クリック率）</div>
+      <div class="value">4.38%</div>
+      <div class="sub">業界平均: 0.5〜1.5% / 政治広告: 1〜2%</div>
+    </div>
+    <div class="card green">
+      <div class="label">CPC（リンククリック単価）</div>
+      <div class="value">¥54</div>
+      <div class="sub">業界平均: ¥100〜300</div>
+    </div>
+    <div class="card green">
+      <div class="label">LPビュー率</div>
+      <div class="value">93.88%</div>
+      <div class="sub">クリック後ほぼ全員が HP 到達</div>
+    </div>
+    <div class="card red">
+      <div class="label">予算消化率</div>
+      <div class="value">8.8%</div>
+      <div class="sub">¥15,000/日 → 実際 ¥1,322/日 のみ</div>
+    </div>
+    <div class="card yellow">
+      <div class="label">リーチ</div>
+      <div class="value">2,573<span style="font-size:14px;color:#6b7280">人</span></div>
+      <div class="sub">2日間累計 / 田川市人口の約5.7%</div>
+    </div>
+    <div class="card yellow">
+      <div class="label">動画100%再生率</div>
+      <div class="value">2.5%</div>
+      <div class="sub">最後まで見られていない</div>
+    </div>
+  </div>
+
+  <h3>すべての指標</h3>
+  <table>
+    <thead>
+      <tr><th>指標</th><th>実績</th><th>評価</th><th>コメント</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>消化金額</td><td>¥2,644</td><td class="bad">🔴 大幅未消化</td><td>2日想定¥30,000 → 実績9%</td></tr>
+      <tr><td>リーチ</td><td>2,573 人</td><td class="warn">🟡 やや弱い</td><td>田川市人口の約5.7%</td></tr>
+      <tr><td>インプレッション</td><td>2,854 回</td><td class="warn">🟡 やや弱い</td><td>頻度1.11回（同じ人にほぼ1回）</td></tr>
+      <tr><td>クリック（すべて）</td><td>125</td><td class="ok">🟢 良好</td><td>—</td></tr>
+      <tr><td>リンククリック</td><td>49</td><td class="ok">🟢 良好</td><td>HP誘導の本命指標</td></tr>
+      <tr><td>CTR（すべて）</td><td>4.38%</td><td class="ok">🟢 超優秀</td><td>業界平均の3〜10倍</td></tr>
+      <tr><td>CPC（リンク）</td><td>¥54</td><td class="ok">🟢 超優秀</td><td>業界平均の1/2〜1/5</td></tr>
+      <tr><td>CPM</td><td>¥926</td><td class="warn">🟡 妥当</td><td>政治広告は通常高め</td></tr>
+      <tr><td>LPビュー率</td><td>93.88%</td><td class="ok">🟢 超優秀</td><td>離脱がほぼゼロ</td></tr>
+      <tr><td>動画3秒再生</td><td>710</td><td class="ok">🟢 興味は引けている</td><td>—</td></tr>
+      <tr><td>動画50%再生</td><td>61（8.6%）</td><td class="bad">🔴 弱い</td><td>途中離脱が多い</td></tr>
+      <tr><td>動画100%再生</td><td>18（2.5%）</td><td class="bad">🔴 弱い</td><td>最後まで見られていない</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>🎯 何が「うまくいっていない」のか</h2>
+
+  <h3>🟢 むしろ良い：クリエイティブと広告設計</h3>
+  <p>CTR・CPC・LPビュー率の3指標が業界トップレベル。
+    「広告を見せれば確実にクリックされ、HP に到達する」状態が作れています。
+    クリエイティブ・コピー・リンク先の方向性は <strong>正解</strong>。</p>
+
+  <h3>🔴 唯一の問題：予算が消化できていない</h3>
+  <p>1日 ¥15,000 設定に対し、実際の消化は <strong>1日 ¥1,322（8.8%）</strong>。
+    1日 ¥13,678（残り91.2%）の予算が「使われずに消えている」状態です。</p>
+  <div class="info-note">
+    💡 <strong>機会損失の試算</strong>：現状 CPC ¥54 で計算すると、もし予算が完全に消化できれば
+    <strong>1日 277 クリック × 7日 = 約 1,940 クリック</strong> を獲得できる計算。
+    現状 49 クリック / 2日 = 24 クリック/日 なので、本来の <strong>約 10 倍</strong> のチャンスを逃しています。
+  </div>
+
+  <h3>🔍 予算消化できない原因（推測・優先度順）</h3>
+  <table>
+    <thead><tr><th>原因</th><th>説明</th><th>影響度</th></tr></thead>
+    <tbody>
+      <tr><td>A. オーディエンスが狭すぎる</td><td>田川市（人口約4.5万人）+ 25-65歳 = 母数が小さく Meta が広告を出す相手を見つけにくい</td><td class="bad">🔴 大</td></tr>
+      <tr><td>B. 政治広告で配置が制限</td><td>11箇所のプレースメントが配信不可（IGプロフィール・FB右側等）</td><td class="bad">🔴 大</td></tr>
+      <tr><td>C. 入札戦略「最大数量」+ 暗黙の入札上限</td><td>安く拾える分しか配信されない設定</td><td class="warn">🟡 中</td></tr>
+      <tr><td>D. クリエイティブが1パターンのみ</td><td>Meta の最適化アルゴリズムが学習する余地が少ない</td><td class="warn">🟡 中</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>🚀 改善提案（優先度順）</h2>
+
+  <div class="proposal">
+    <div class="label-line"><span class="priority-tag p0">P0 今すぐ</span><span style="color:#6b7280;font-size:13px">最も効果が大きく、即実施可能</span></div>
+    <h4>① オーディエンスを拡大する</h4>
+    <div class="before-after">
+      <div class="before">田川市のみ<br>25〜65歳</div>
+      <div class="arrow">→</div>
+      <div class="after">田川市 + 半径20km<br>（飯塚・直方・嘉麻を含む）<br>30〜65歳</div>
+    </div>
+    <div class="reason">
+      💡 母数が約 4.5万人 → 約 20万人に拡大。Meta の配信余地が広がり、予算消化が進む見込み。
+      投票率の高い 30 代以上に絞ることで効率も両立。
+    </div>
+  </div>
+
+  <div class="proposal">
+    <div class="label-line"><span class="priority-tag p0">P0 今すぐ</span><span style="color:#6b7280;font-size:13px">逆説的だが効果大</span></div>
+    <h4>② 1日予算を一時的に下げる（¥15,000 → ¥3,000）</h4>
+    <div class="before-after">
+      <div class="before">¥15,000/日<br>（消化¥1,322・8.8%）</div>
+      <div class="arrow">→</div>
+      <div class="after">¥3,000/日<br>（消化率を上げる）</div>
+    </div>
+    <div class="reason">
+      💡 「使えない予算」を抱えるより、消化できる予算で確実に配信を伸ばす。
+      消化率が安定したら段階的に増額。Meta の配信アルゴリズムは消化率が低いと最適化が回らない。
+    </div>
+  </div>
+
+  <div class="proposal">
+    <div class="label-line"><span class="priority-tag p0">P0 今すぐ</span><span style="color:#6b7280;font-size:13px">設定変更のみ</span></div>
+    <h4>③ 入札戦略を見直す</h4>
+    <div class="before-after">
+      <div class="before">最大数量<br>+ 暗黙の入札上限</div>
+      <div class="arrow">→</div>
+      <div class="after">最大リーチ or<br>入札上限なし</div>
+    </div>
+    <div class="reason">
+      💡 安く拾えるオークションだけ参加する設定だと配信機会が限定される。上限を外す or リーチ目的に切り替えて配信機会を増やす。
+    </div>
+  </div>
+
+  <div class="proposal">
+    <div class="label-line"><span class="priority-tag p1">P1 1〜2日後</span><span style="color:#6b7280;font-size:13px">クリエイティブ追加</span></div>
+    <h4>④ クリエイティブをもう2本追加して A/B テスト</h4>
+    <div class="before-after">
+      <div class="before">動画1本のみ</div>
+      <div class="arrow">→</div>
+      <div class="after">動画1本 + 静止画2本<br>（投稿A / 投稿B / 新規）</div>
+    </div>
+    <div class="reason">
+      💡 Meta は複数クリエイティブを並行配信して勝ちパターンを自動で見つける。1本だと最適化が効きにくい。
+    </div>
+  </div>
+
+  <div class="proposal">
+    <div class="label-line"><span class="priority-tag p1">P1 1〜2日後</span><span style="color:#6b7280;font-size:13px">動画改善</span></div>
+    <h4>⑤ 動画クリエイティブの改善（完走率向上）</h4>
+    <div class="before-after">
+      <div class="before">100%再生 2.5%<br>（最後まで見られない）</div>
+      <div class="arrow">→</div>
+      <div class="after">15秒以内に短縮<br>冒頭2秒で結論<br>字幕焼き込み</div>
+    </div>
+    <div class="reason">
+      💡 SNS動画は音声 OFF で見られることが大半。字幕焼き込み + 冒頭2秒の結論で離脱を防ぐ。
+    </div>
+  </div>
+
+  <div class="proposal">
+    <div class="label-line"><span class="priority-tag p2">P2 余裕あれば</span><span style="color:#6b7280;font-size:13px">配信時間最適化</span></div>
+    <h4>⑥ 配信時間を最適化</h4>
+    <div class="before-after">
+      <div class="before">24時間均等配信</div>
+      <div class="arrow">→</div>
+      <div class="after">19〜22時に予算寄せ<br>土日は予算増額</div>
+    </div>
+    <div class="reason">
+      💡 在宅でスマホを見る時間帯（夜・週末）に予算を寄せることで、刺さりやすいユーザーへ集中配信。
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>🧮 シナリオ別 想定パフォーマンス</h2>
+  <p style="color:#6b7280;font-size:14px;margin-bottom:12px">現状の CPC ¥54 で計算した場合の想定値（あくまで試算）</p>
+  <table class="scenario-table">
+    <thead>
+      <tr><th>シナリオ</th><th>1日予算</th><th>想定クリック / 日</th><th>想定HP誘導 / 日</th><th>1週間累計</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>現状（消化率 8.8%）</td><td>¥1,322</td><td>24</td><td>23</td><td>168 クリック</td></tr>
+      <tr class="highlight-row"><td><strong>改善後 ¥3,000全消化</strong></td><td><strong>¥3,000</strong></td><td><strong>55</strong></td><td><strong>52</strong></td><td><strong>385 クリック</strong></td></tr>
+      <tr><td>¥5,000 全消化</td><td>¥5,000</td><td>92</td><td>86</td><td>644 クリック</td></tr>
+      <tr><td>¥15,000 全消化（理想）</td><td>¥15,000</td><td>277</td><td>260</td><td>1,940 クリック</td></tr>
+    </tbody>
+  </table>
+  <div class="info-note">
+    💡 まず <strong>¥3,000/日で完全消化</strong> を目指し、安定したら段階的に増額するのが現実的な改善ステップ。
+  </div>
+</section>
+
+<section>
+  <h2>✅ 実施したいこと（ご承認のお願い）</h2>
+  <div class="approval-box">
+    <h3>下記の調整を実施してよろしいでしょうか</h3>
+    <ul>
+      <li><strong>① 配信地域の拡大</strong>：田川市のみ → 田川市 + 半径20km（飯塚・直方等）</li>
+      <li><strong>② 年齢層の調整</strong>：25〜65歳 → 30〜65歳</li>
+      <li><strong>③ 1日予算の引き下げ</strong>：¥15,000/日 → ¥3,000/日（消化率を上げるため）</li>
+      <li><strong>④ 入札戦略の見直し</strong>：入札上限を外す or リーチ目的に変更</li>
+      <li><strong>⑤ 静止画バナー2本追加</strong>：A/B テストでクリエイティブ最適化</li>
+      <li><strong>⑥ 動画の短縮版作成</strong>：15秒以内・字幕焼き込み</li>
+    </ul>
+    <div class="footer">
+      上記①〜④は <strong>本日中</strong> に実施可能です。⑤⑥は制作が必要なため <strong>1〜2日後</strong>。<br>
+      ご承認いただけましたら順次対応いたします。修正・追加のご指示があればお知らせください。
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>📌 ステータスサマリー</h2>
+  <table>
+    <thead><tr><th>項目</th><th>状態</th></tr></thead>
+    <tbody>
+      <tr><td>Facebookページ「うらのじん 後援会」</td><td class="ok">✅ 開設済み・運用中</td></tr>
+      <tr><td>Instagram連携（@uranojin_kouenkai）</td><td class="ok">✅ 連携済み</td></tr>
+      <tr><td>Meta政治広告認証</td><td class="ok">✅ 承認済み（うらのじん後援会名義）</td></tr>
+      <tr><td>免責情報（広告ライブラリ7年公開）</td><td class="ok">✅ 設定済み（info@uranojin.com）</td></tr>
+      <tr><td>キャンペーン配信</td><td class="ok">✅ アクティブ（2026-06-09〜）</td></tr>
+      <tr><td>uranojin.com への Meta Pixel 設置</td><td class="warn">❓ 未確認（要チェック）</td></tr>
+    </tbody>
+  </table>
+</section>
+
+</main>
+
+<footer>
+  © うらのじん後援会 ／ Meta広告 配信状況レポート ／ 株式会社 斗
+</footer>
+
+</div>
+</body>
+</html>
